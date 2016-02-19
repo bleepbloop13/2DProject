@@ -1,8 +1,8 @@
 package lot.view;
 
+import java.awt.Color;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-
 import lot.controller.LotController;
 
 public class LotPanel extends JPanel
@@ -32,7 +32,9 @@ public class LotPanel extends JPanel
 
 	private void setupPanel()
 	{
-		
+		this.setLayout(baseLayout);
+		this.add(lotTable);
+		this.setBackground(Color.PINK);
 	}
 
 	private void setupLayout()

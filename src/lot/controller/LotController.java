@@ -17,12 +17,18 @@ public class LotController
 
 	public void start()
 	{
-
+		
 	}
 
 	private void setupArray()
 	{
-
+		for(int row = 0; row < myLot.length; row++)
+		{
+			for(int col = 0; col < myLot[0].length; col++)
+			{
+				
+			}
+		}
 	}
 
 	public String[][] getMyLot()
